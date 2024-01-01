@@ -312,13 +312,13 @@ p{
      }
  }
  
- .skills-container li.jquery::after{
-     animation-name: jq;
+ .skills-container li.typescript::after{
+     animation-name: typescript;
   }
   
-  @keyframes jq{
+  @keyframes typescript{
       to{
-          width: 80%;
+          width: 85%;
       }
   }
  
@@ -375,7 +375,6 @@ p{
 }
 /* professional-experience ends here  */
 
-
 /* MY-project-start-here */
 img {
     vertical-align: middle;
@@ -384,6 +383,7 @@ img {
   /* Position the image container (needed to position the left and right arrows) */
   .container {
     position: relative;
+    background-color: aquamarine;
   }
   
   /* Hide the images by default */
@@ -427,7 +427,7 @@ img {
   
   /* Number text (1/3 etc) */
   .numbertext {
-    color: #f2f2f2;
+    color:black;
     font-size: 12px;
     padding: 8px 12px;
     position: absolute;
@@ -440,6 +440,9 @@ img {
     background-color: #222;
     padding: 2px 16px;
     color: white;
+    
+    
+    
   }
   
   .row:after {
@@ -466,6 +469,7 @@ img {
   
 
 /* MY-project-end-here */
+
 
 
 /* achievement-contact starts from here  */
