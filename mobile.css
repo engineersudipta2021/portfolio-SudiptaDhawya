@@ -364,7 +364,33 @@ p{
          width: 65%;
      }
  }
+ .skills-container li.react::after{
+    animation-name: nextjs;
+ }
  
+ @keyframes nextjs{
+     to{
+         width: 65%;
+     }
+ }
+ .skills-container li.react::after{
+    animation-name: mongoDB;
+ }
+ 
+ @keyframes mongoDB{
+     to{
+         width: 65%;
+     }
+ }
+ .skills-container li.react::after{
+    animation-name: Express;
+ }
+ 
+ @keyframes Express{
+     to{
+         width: 65%;
+     }
+ }
 
 
 
